@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1684
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockRenderingIssue", "TextBlockRenderingIssue\TextBlockRenderingIssue.csproj", "{D48743E7-8648-4A31-B773-9E79F02B1639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTextBlock", "CustomTextBlock\CustomTextBlock.csproj", "{E83EBFB3-F46A-420F-B21F-A419D0550052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockRendering.NET3.5", "TextBlockRendering.NET3.5\TextBlockRendering.NET3.5.csproj", "{E031685D-9366-4F99-8B7F-2D812E350ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Debug|x86.ActiveCfg = Debug|x86
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Debug|x86.Build.0 = Debug|x86
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Release|x86.ActiveCfg = Release|x86
+		{D48743E7-8648-4A31-B773-9E79F02B1639}.Release|x86.Build.0 = Release|x86
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Debug|x86.ActiveCfg = Debug|x86
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Debug|x86.Build.0 = Debug|x86
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Release|x86.ActiveCfg = Release|x86
+		{E83EBFB3-F46A-420F-B21F-A419D0550052}.Release|x86.Build.0 = Release|x86
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Debug|x86.Build.0 = Debug|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Release|x86.ActiveCfg = Release|Any CPU
+		{E031685D-9366-4F99-8B7F-2D812E350ECD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {252E52CB-8957-4F63-BB89-41E683893B16}
+	EndGlobalSection
+EndGlobal

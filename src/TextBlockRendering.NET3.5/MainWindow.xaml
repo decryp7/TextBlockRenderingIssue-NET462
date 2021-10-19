@@ -1,0 +1,35 @@
+﻿<Window x:Class="TextBlockRendering.NET3._5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlockRendering.NET3._5"
+        xmlns:customTextBlock="clr-namespace:CustomTextBlock;assembly=CustomTextBlock"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize">
+    <Grid 
+        x:Name="Viewer"
+        Width="1823"
+        Height="965">
+        <Viewbox>
+            <Canvas 
+                x:Name="Canvas"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="1866"
+                Height="984"
+                Background="Black">
+                <customTextBlock:DataTextBlock
+                    x:Name="DataTextBlock"
+                    Foreground="#FF00FFFF"
+                    Height="20"
+                    FontSize="20"
+                    FontFamily="ＭＳ 明朝"
+                    Canvas.Left="575"
+                    Canvas.Top="400" />
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Window>
