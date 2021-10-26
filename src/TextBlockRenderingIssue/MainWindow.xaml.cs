@@ -24,9 +24,13 @@ namespace TextBlockRenderingIssue
         private readonly Timer timer;
         private readonly int[] dummyValues = new[] { 1, 33, 55, 66 };
         private readonly RandomGenerator r = new RandomGenerator();
+        private readonly string runtimeVersion = System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion();
+        private readonly string runtimeDirectory =
+            System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory();
 
         public MainWindow()
         {
+
             InitializeComponent();
             this.SizeChanged += OnSizeChanged;
             timer = new Timer(Refresh, null, 1000, 1000);
@@ -36,7 +40,7 @@ namespace TextBlockRenderingIssue
         {
             this.Title =
                 FormattableString.Invariant(
-                    $"Viewer Size: Width: {Viewer.ActualWidth}, Height: {Viewer.ActualHeight}. Canvas Size: Width: {Canvas.ActualWidth}, Height: {Canvas.ActualHeight}");
+                    $"Viewer Size: Width: {Viewer.ActualWidth}, Height: {Viewer.ActualHeight}. Canvas Size: Width: {Canvas.ActualWidth}, Height: {Canvas.ActualHeight}. {runtimeVersion} from {runtimeDirectory}. ");
         }
 
         private void Refresh(object state)

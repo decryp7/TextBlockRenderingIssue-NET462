@@ -25,6 +25,9 @@ namespace TextBlockRendering.NET3._5
         private readonly Timer timer;
         private readonly int[] dummyValues = new[] { 1, 33, 55, 66 };
         private readonly RandomGenerator r = new RandomGenerator();
+        private readonly string runtimeVersion = System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion();
+        private readonly string runtimeDirectory =
+            System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory();
 
         public MainWindow()
         {
@@ -37,11 +40,13 @@ namespace TextBlockRendering.NET3._5
         {
             this.Title =
                 string.Format(CultureInfo.InvariantCulture, 
-                    "Viewer Size: Width: {0}, Height: {1}. Canvas Size: Width: {2}, Height: {3}",
+                    "Viewer Size: Width: {0}, Height: {1}. Canvas Size: Width: {2}, Height: {3}. {4} from {5}.",
                     Viewer.ActualWidth,
                     Viewer.ActualHeight,
                     Canvas.ActualWidth,
-                    Canvas.ActualHeight);
+                    Canvas.ActualHeight, 
+                    runtimeVersion,
+                    runtimeDirectory);
         }
 
         private void Refresh(object state)
