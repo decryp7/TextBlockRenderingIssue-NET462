@@ -11,8 +11,8 @@
         ResizeMode="NoResize">
     <Grid 
         x:Name="Viewer"
-        Width="1823"
-        Height="965">
+        Width="1821"
+        Height="1005">
         <Viewbox>
             <Canvas 
                 x:Name="Canvas"
