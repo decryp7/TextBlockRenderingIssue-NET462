@@ -23,7 +23,7 @@ namespace TextBlockRendering.NET3._5
     public partial class MainWindow : Window
     {
         private readonly Timer timer;
-        private readonly int[] dummyValues = new[] { 1, 33, 55, 66 };
+        private readonly int[] dummyValues = new[] { 1, 11, 111, 1111, 11111, 5, 55, 555, 5555, 55555 };
         private readonly RandomGenerator r = new RandomGenerator();
         private readonly string runtimeVersion = System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion();
         private readonly string runtimeDirectory =

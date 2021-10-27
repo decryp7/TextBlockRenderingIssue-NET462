@@ -13,7 +13,7 @@
     <Grid
         x:Name="Viewer"
         Width="1821"
-        Height="965">
+        Height="1005">
         <Viewbox>
             <Canvas 
                 x:Name="Canvas"
